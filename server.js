@@ -33,3 +33,6 @@ app.get('/songs', (req, res) => {
 app.listen(PORT, () => {
     console.log(`🎵 Server running at http://localhost:${PORT}/`);
 });
+app.listen(3000, () => {
+    console.log("🎵 MP3 Server is running on port 3000");
+});
